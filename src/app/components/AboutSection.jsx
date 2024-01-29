@@ -16,7 +16,7 @@ const TAB_DATA = [
         <li>MongoDB</li>
         <li>TypeScript</li>
       </ul>
-    )
+    ),
   },
   {
     title: "Education",
@@ -27,8 +27,8 @@ const TAB_DATA = [
         <li> Bachelor of Technology (B-Tech)</li>
         <li> Bachelor of IT Engineering University - B.E ( IT )</li>
       </ul>
-    )
-  }
+    ),
+  },
   // {
   //   title: "Certifications",
   //   id: "certifications",
@@ -64,31 +64,29 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a Frontend developer with a passion for creating interactive
-            and responsive web applications.{" "}
+            and responsive web applications.
           </p>
           <p className="text-base lg:text-lg">
-            {" "}
-            I have experience working with JavaScript, React, Redux, Next js,
-            Node.js, Express, MongoDB, HTML, CSS, and Git.
+            I have strong background in ReactJs, Redux, SSR, NextJs, NodeJs,
+            AJAX, Redux, RESTful services/API , Tailwind, MUI, Styled-
+            components, etc. Now I have experience in remote job.
           </p>
           <p className="text-base lg:text-lg">
             And then I am familiar with React Native and flutter.
           </p>
           <p className="text-base lg:text-lg">
             I am a quick learner and I am always looking to expand my knowledge
-            and skill set.{" "}
+            and skill set.
           </p>
           <p className="text-base lg:text-lg">
-            {" "}
             I am a team player and I am excited to work with others to create
-            amazing applications.{" "}
+            amazing applications.
           </p>
           <p className="text-base lg:text-lg">
             I can develop individual or with team Expertly applied API in coding
-            development.{" "}
+            development.
           </p>
           <p className="text-base lg:text-lg">
-            {" "}
             Expert communication, interpersonal, and organizational skills.
           </p>
           <div className="flex flex-row justify-start mt-8">
@@ -102,13 +100,13 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              Education{" "}
+              Education
             </TabButton>
             {/* <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
-              Certifications{" "}
+              Certifications
             </TabButton> */}
           </div>
           <div className="mt-8">
